@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="shiporder.xsd">
+    <Person>
+        <Name>
+            <First>John</First>
+            <Last>Smith</Last>
+        </Name>
+        <Credential>
+            <Id>81949</Id>
+            <Password encryption="yes">ewilfhohiwe</Password>
+        </Credential>
+        <Phone>
+            <Work>044-43218723</Work>
+            <Cell provider="T-Mobile">123456789</Cell>
+        </Phone>
+        <Category>Friend</Category>
+    </Person>
+    <Person>
+        <Name>
+            <First>Peter</First>
+            <Last>Markle</Last>
+        </Name>
+        <Credential>
+            <Id>612547</Id>
+            <Password>uqwifywguebrfj</Password>
+        </Credential>
+        <Phone>
+            <Work>3289649837</Work>
+            <Cell provider="Lyca">+17163497</Cell>
+        </Phone>
+        <Category>Family</Category>
+    </Person>
+    <Person>
+        <Name>
+            <First>Jack</First>
+            <Last>Sparrow</Last>
+        </Name>
+        <Credential>
+            <Id>902379</Id>
+            <Password encryption="no">uwifygi</Password>
+        </Credential>
+        <Phone>
+            <Work>37257</Work>
+            <Cell>89126384</Cell>
+        </Phone>
+        <Category>Work</Category>
+    </Person>
+    
+</Persons>
