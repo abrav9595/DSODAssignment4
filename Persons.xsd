@@ -37,7 +37,7 @@
               <xsd:element name="Phone" minOccurs="1" maxOccurs="1" >
                 <xsd:complexType>
                   <xsd:sequence>
-                    <xsd:element name="Work" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+                    <xsd:element name="Work" type="xsd:strin" minOccurs="1" maxOccurs="1"/>
                     <xsd:element name="Cell" minOccurs="1" maxOccurs="1">
                       <xsd:complexType>
                         <xsd:simpleContent>
