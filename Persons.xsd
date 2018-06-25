@@ -41,7 +41,7 @@
                     <xsd:element name="Cell" minOccurs="1" maxOccurs="1">
                       <xsd:complexType>
                         <xsd:simpleContent>
-                          <xsd:extension base="xsd:unsignedInt"> 
+                          <xsd:extension base="xsd:string"> 
                             <xsd:attribute name="Provider" type="xsd:string" use="optional"/>
                           </xsd:extension>
                         </xsd:simpleContent>
