@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <xsd:element name="Persons">
     <xsd:complexType>
@@ -25,7 +25,7 @@
                       <xsd:complexType>
                         <xsd:simpleContent>
                           <xsd:extension base="xsd:string">       
-                            <xsd:attribute name="Encryption" type="xsd:string" use="required"/>
+                            <xsd:attribute name="Encryption" type="xsd:string" use="optional"/>
                           </xsd:extension>
                         </xsd:simpleContent>
                       </xsd:complexType>
@@ -37,11 +37,11 @@
               <xsd:element name="Phone" minOccurs="1" maxOccurs="1" >
                 <xsd:complexType>
                   <xsd:sequence>
-                    <xsd:element name="Work" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+                    <xsd:element name="Work" type="xsd:unsignedLong" minOccurs="1" maxOccurs="1"/>
                     <xsd:element name="Cell" minOccurs="1" maxOccurs="1">
                       <xsd:complexType>
                         <xsd:simpleContent>
-                          <xsd:extension base="xsd:string"> 
+                          <xsd:extension base="xsd:unsignedLong"> 
                             <xsd:attribute name="Provider" type="xsd:string" use="optional"/>
                           </xsd:extension>
                         </xsd:simpleContent>
